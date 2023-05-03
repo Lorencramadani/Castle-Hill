@@ -1,0 +1,25 @@
+{
+  "name": "castle-hill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenc",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-configuration": "^5.0.0",
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.11.0",
+    "esbuild": "^0.17.18",
+    "ts-loader": "^9.4.2"
+  },
+  "dependencies": {
+    "13": "^0.0.0"
+  },
+  "cypress-cucumber-preprocessor":{
+    "stepDefinitions":"cypress/support/step_definitions/**/*.js"
+  }
+}
